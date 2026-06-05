@@ -1,0 +1,9 @@
+{
+  "baseline_mae": 11.141,
+  "graphsage_mae": 10.026,
+  "mae_reduction_pct": 10.01,
+  "baseline_within15": 27.54,
+  "graphsage_within15": 32.32,
+  "within15_gain_pp": 4.79,
+  "n_test_legs": 26932
+}
