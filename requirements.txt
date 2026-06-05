@@ -1,0 +1,15 @@
+# Core pipeline (runs the full benchmark + dashboard out of the box)
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+networkx>=3.0
+xgboost>=2.0
+joblib>=1.3
+matplotlib>=3.7
+streamlit>=1.30
+
+# Optional — only if you swap the from-scratch GraphSAGE in src/graphsage.py
+# for a torch_geometric implementation (see README "GraphSAGE" note):
+# torch>=2.2
+# torch-geometric>=2.5
